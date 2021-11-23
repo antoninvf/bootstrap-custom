@@ -1,0 +1,12 @@
+@import "../node_modules/bootstrap/scss/function";
+@import "../node_modules/bootstrap/scss/variables";
+
+$primary: red;
+$border-width: 10px;
+
+$theme-colors: map-merge($theme-colors,
+    ("karel": purple,
+        "lolko": lime,
+    ));
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
